@@ -109,7 +109,7 @@ class OurVisits extends Component {
             })
         }
         else {
-            await api.getVisitsByStatus(this.state.visitStatus).then(visits => {
+            await api.getVisitsByStatus(this.state.visitStatus, this.state.dateToday).then(visits => {
                 this.setState({
                     visits: visits.data,
                     isLoading: false
@@ -264,7 +264,7 @@ class OurVisits extends Component {
 
         return (
             <div>
-                <div className="testBox2">
+                {/* <div className="testBox2">
                     <h2>Test - View state values</h2>
                     <p>Visits: {this.state?.visits ? "Has value" : "No value"}</p>
                     <p>VisitStatus: {this.state?.visitStatus ? this.state.visitStatus : "No value"}</p>
@@ -272,7 +272,7 @@ class OurVisits extends Component {
                     <p>DateToday: {this.state?.dateToday ? "Has value" : "No value"}</p>
                     <p>VisitId: {this.state?.visitId ? this.state.visitId : "No value"}</p>
 
-                </div>
+                </div> */}
                 <div className="section whiteBkg mt-4">
                     <Row>
                         <span className="sectionHeader">

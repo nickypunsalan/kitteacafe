@@ -261,7 +261,7 @@ class BookVisit extends Component {
         return (
             <div>
                 {/* Component -- Create Appt */}
-                <div className="testBox">
+                {/* <div className="testBox">
                     <h2>Test - View state values</h2>
                     <p>VisitType: {this.state?.visitType ? this.state.visitType : "No value"}</p>
                     <p>VisitTypeId: {this.state?.visitTypeId ? this.state.visitTypeId : "No value"}</p>
@@ -279,7 +279,7 @@ class BookVisit extends Component {
                     <p>popupDesc (modal): {this.state?.popupDesc ? "Has value" : "No value"}</p>
                     <p>IsMobileInvalid (modal): {this.state?.isMobileInvalid ? this.state.isMobileInvalid.toString() : this.state.isMobileInvalid.toString()}</p>
                     <p>IsMobileValid (modal): {this.state?.isMobileValid ? this.state.isMobileValid.toString() : this.state.isMobileInvalid.toString()}</p>
-                </div>
+                </div> */}
                 <div className="section  whiteBkg mt-4">
                     <Row>
                         <span className="sectionHeader">
